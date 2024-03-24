@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #Sky {
+      background-color: black;
+      width: 100vw;
+      height: 440px;
+      animation: mydiv 20s infinite;
+    }
+
+    @keyframes mydiv {
+      50% {
+        background-color: aqua;
+      }
+    }
+
+    #Sun {
+      display: flex;
+      position: fixed;
+      left: 45%;
+      border-radius: 50px;
+      margin: auto;
+      width: 100px;
+      top: 10px;
+      height: 100px;
+      box-shadow: -15px 15px 0 5px white;
+      animation: mymove 20s infinite;
+    }
+
+    @keyframes mymove {
+      50% {
+        background-color: yellow;
+        box-shadow: -15px 15px 0 5px transparent;
+      }
+    }
+
+    #Star1 {
+      display: flex;
+      position: fixed;
+      top: 170px;
+      left: 4%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star1 20s infinite;
+    }
+
+    @keyframes star1 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star2 {
+      display: flex;
+      position: fixed;
+      top: 140px;
+      left: 15%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star2 20s infinite;
+    }
+
+    @keyframes star2 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star3 {
+      display: flex;
+      position: fixed;
+      top: 35px;
+      left: 24%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star3 20s infinite;
+    }
+
+    @keyframes star3 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star4 {
+      display: flex;
+      position: fixed;
+      top: 150px;
+      left: 35%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star1 20s infinite;
+    }
+
+    @keyframes star1 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star5 {
+      display: flex;
+      position: fixed;
+      top: 130px;
+      left: 45%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star5 20s infinite;
+    }
+
+    @keyframes star5 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star6 {
+      display: flex;
+      position: fixed;
+      top: 190px;
+      left: 55%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star6 20s infinite;
+    }
+
+    @keyframes star6 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star7 {
+      display: flex;
+      position: fixed;
+      top: 180px;
+      left: 65%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star7 20s infinite;
+    }
+
+    @keyframes star7 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star8 {
+      display: flex;
+      position: fixed;
+      top: 40px;
+      left: 76%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star8 20s infinite;
+    }
+
+    @keyframes star8 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star9 {
+      display: flex;
+      position: fixed;
+      top: 120px;
+      left: 85%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star9 20s infinite;
+    }
+    @keyframes star9 {
+      50% {
+        color: transparent;
+      }
+    }
+
+    #Star10 {
+      display: flex;
+      position: fixed;
+      top: 200px;
+      left: 95%;
+      color: white;
+      width: 15px;
+      height: 15px;
+      animation: star10 20s infinite;
+    }
+    @keyframes star10 {
+      50% {
+        color: transparent;
+      }
+    }
+
+
+    #Cloud1 {
+      display: flex;
+      position: fixed;
+      left: 20%;
+      width: 200px;
+      height: 200px;
+      top: 20px;
+      color: grey;
+      animation: cloud1 20s infinite;
+    }
+    @keyframes cloud1 {
+      50% {
+        color: white;
+      }
+    }
+
+    #Cloud2 {
+      display: flex;
+      position: fixed;
+      right: 20%;
+      width: 200px;
+      height: 200px;
+      top: 20px;
+      color: grey;
+      animation: cloud2 20s infinite;
+    }
+    @keyframes cloud2 {
+      50% {
+        color: white;
+      }
+    }
+
+    #Greenary1 {
+      background-color: rgba(78, 51, 51, 0.899);
+      display: flex;
+      position: fixed;
+      width: 100vw;
+      height: 90px;
+      bottom: 165px; 
+      animation: myspam 20s infinite;
+    }
+
+    @keyframes myspam {
+      50% {
+        background-color: green;
+      }
+    }
+
+
+
+    #Road1 {
+      background-color: rgb(57, 54, 54);
+      display: flex;
+      position: fixed;
+      width: 100vw;
+      height: 80px;
+      bottom: 85px;
+
+    }
+
+    #Road2 {
+      background-color: rgb(57, 54, 54);
+      display: flex;
+      position: fixed;
+      width: 100vw;
+      height: 85px;
+      bottom: 0px;
+    }
+
+    #Nobita-house {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      width: 60px;
+      height: 70px;
+    }
+
+    #Shizuka-house {
+      display: flex;
+      position: fixed;
+      bottom: 247px;
+      left: 21.5%;
+      width: 50px;
+      height: 50px;
+    }
+
+    #Suneo-house {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      left: 62%;
+      width: 60px;
+      height: 70px;
+    }
+
+    #Gian-house {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      left: 90%;
+      width: 60px;
+      height: 70px;
+    }
+    #Dekisugi-house {
+      display: flex;
+      position: fixed;
+      bottom: 166px;
+      left: 18%;
+      width: 30px;
+      height: 50px;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+    }
+    #Doremon {
+      display: flex;
+      position: fixed;
+      bottom:279px;
+      left:2%;
+      width: 10px;
+      height: 10px;
+    }
+
+    #Airport {
+      display: flex;
+      position: fixed;
+      bottom: 75px;
+      left: 48%;
+      width: 250px;
+      height: 250px;
+    }
+    #Playground {
+      display: flex;
+      position: fixed;
+      bottom: 160px;
+      left:85%;
+      width: 230px;
+      height: 70px;
+    }
+
+    #Bicycle1 {
+      display: flex;
+      position: fixed;
+      bottom: 238px;
+      left: 3%;
+      width: 15px;
+      height: 15px;
+    }
+
+    #Bicycle2 {
+      display: flex;
+      position: fixed;
+      bottom: 245px;
+      left: 25%;
+      color: rgb(231, 21, 192);
+      width: 11px;
+      height: 11px;
+    }
+
+    #Bicycle3 {
+      display: flex;
+      position: fixed;
+      bottom: 238px;
+      left: 90%;
+      color: orangered;
+      width: 15px;
+      height: 15px;
+    }
+
+    #Tree1 {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      left: 5%;
+      width: 40px;
+      height: 40px;
+    }
+
+    #Tree2 {
+      display: flex;
+      position: fixed;
+      bottom: 165px;
+      left: 12.5%;
+      width: 40px;
+      height: 40px;
+    }
+
+    #Tree3 {
+      display: flex;
+      position: fixed;
+      bottom: 245px;
+      left: 20%;
+      width: 40px;
+      height: 40px;
+    }
+
+    #Tree4 {
+      display: flex;
+      position: fixed;
+      bottom: 250px;
+      left: 26.5%;
+      width: 40px;
+      height: 40px;
+    }
+
+    #Tree5 {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      left: 60%;
+      width: 40px;
+      height: 40px;
+    }
+
+    #Tree6 {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      left: 69%;
+      width: 40px;
+      height: 40px;
+    }
+
+    #Tree7 {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      left: 88%;
+      width: 40px;
+      height: 40px;
+    }
+
+    #Tree8 {
+      display: flex;
+      position: fixed;
+      bottom: 240px;
+      left: 94.5%;
+      width: 40px;
+      height: 40px;
+    }
+
+
+
+    #Baloon {
+      display: flex;
+      position: fixed;
+      bottom: 320px;
+      left: 5%;
+      color: yellow;
+      width: 40px;
+      height: 40px;
+      animation: bal 10s infinite;
+    }
+
+    @keyframes bal {
+      0% {
+        color: yellow;
+        bottom: 0px;
+        bottom: 200px;
+      }
+
+      25% {
+        color: rgb(255, 123, 0);
+        bottom: 200px;
+        bottom: 400px;
+      }
+
+      50% {
+        color: white;
+        bottom: 400px;
+        bottom: 600px;
+      }
+
+      100% {
+        color: green;
+        bottom: 600px;
+        bottom: 800px;
+      }
+    }
+
+    #Baloon1 {
+      display: flex;
+      position: fixed;
+      bottom: 320px;
+      left: 25%;
+      color: yellow;
+      width: 40px;
+      height: 40px;
+      animation: bal1 10s infinite;
+    }
+
+    @keyframes bal1 {
+      0% {
+        color: rgb(255, 123, 0);
+        bottom: 0px;
+        bottom: 200px;
+      }
+
+      25% {
+        color: white;
+        bottom: 200px;
+        bottom: 400px;
+      }
+
+      50% {
+        color: green;
+        bottom: 400px;
+        bottom: 600px;
+      }
+
+      100% {
+        color: purple;
+        bottom: 600px;
+        bottom: 800px;
+      }
+    }
+
+    #Baloon2 {
+      display: flex;
+      position: fixed;
+      bottom: 320px;
+      left: 52%;
+      color: red;
+      width: 40px;
+      height: 40px;
+      animation: bal2 10s infinite;
+    }
+
+    @keyframes bal2 {
+      0% {
+        color: white;
+        bottom: 0px;
+        bottom: 200px;
+      }
+
+      25% {
+        color: green;
+        bottom: 200px;
+        bottom: 400px;
+      }
+
+      50% {
+        color: purple;
+        bottom: 400px;
+        bottom: 600px;
+      }
+
+      100% {
+        color: yellow;
+        bottom: 600px;
+        bottom: 800px;
+      }
+    }
+
+    #Baloon3 {
+      display: flex;
+      position: fixed;
+      bottom: 320px;
+      left: 73%;
+      color: red;
+      width: 40px;
+      height: 40px;
+      animation: bal3 10s infinite;
+    }
+
+    @keyframes bal3 {
+      0% {
+        color: green;
+        bottom: 0px;
+        bottom: 200px;
+      }
+
+      25% {
+        color: purple;
+        bottom: 200px;
+        bottom: 400px;
+      }
+
+      50% {
+        color: yellow;
+        bottom: 400px;
+        bottom: 600px;
+      }
+
+      100% {
+        color: white;
+        bottom: 600px;
+        bottom: 800px;
+      }
+    }
+
+    #Baloon4 {
+      display: flex;
+      position: fixed;
+      bottom: 320px;
+      left: 97%;
+      color: red;
+      width: 40px;
+      height: 40px;
+      animation: bal4 10s infinite;
+    }
+
+    @keyframes bal4 {
+      0% {
+        color: purple;
+        bottom: 0px;
+        bottom: 200px;
+      }
+
+      25% {
+        color: yellow;
+        bottom: 200px;
+        bottom: 400px;
+      }
+
+      50% {
+        color: orangered;
+        bottom: 400px;
+        bottom: 600px;
+      }
+
+      100% {
+        color: white;
+        bottom: 600px;
+        bottom: 800px;
+      }
+    }
+
+    #Ferari {
+      display: flex;
+      position: fixed;
+      width: 30px;
+      height: 15px;
+      bottom: 90px;
+      animation: fer 7s infinite;
+    }
+
+    @keyframes fer {
+      0% {
+        left: 0px;
+        left: 0px;
+      }
+
+      70% {
+        left: 101px;
+        left: 200px;
+      }
+
+      70% {
+        left: 201px;
+        left: 300px;
+      }
+
+      70% {
+        left: 301px;
+        left: 400px;
+      }
+
+      70% {
+        left: 401px;
+        left: 500px;
+      }
+
+      70% {
+        left: 501px;
+        left: 600px;
+      }
+
+      70% {
+        left: 601px;
+        left: 700px;
+      }
+
+      70% {
+        left: 701px;
+        left: 800px;
+      }
+
+      70% {
+        left: 801px;
+        left: 900px;
+      }
+
+      70% {
+        left: 901px;
+        left: 1000px;
+      }
+
+      70% {
+        left: 1001px;
+        left: 1100px;
+      }
+
+      70% {
+        left: 1101px;
+        left: 1200px;
+      }
+
+      70% {
+        left: 1201px;
+        left: 1300px;
+      }
+
+      70% {
+        left: 1301px;
+        left: 1500px;
+      }
+
+      100% {
+        left: 1501px;
+        left: 1600px;
+      }
+    }
+
+    #Car {
+      display: flex;
+      position: fixed;
+      width: 25px;
+      height: 15px;
+      bottom: 78px;
+      animation: car 9s infinite;
+    }
+
+    @keyframes car {
+      0% {
+        left: 0px;
+        left: 0px;
+      }
+
+      70% {
+        left: 101px;
+        left: 200px;
+      }
+
+      70% {
+        left: 201px;
+        left: 300px;
+      }
+
+      70% {
+        left: 301px;
+        left: 400px;
+      }
+
+      70% {
+        left: 401px;
+        left: 500px;
+      }
+
+      70% {
+        left: 501px;
+        left: 600px;
+      }
+
+      70% {
+        left: 601px;
+        left: 700px;
+      }
+
+      70% {
+        left: 701px;
+        left: 800px;
+      }
+
+      70% {
+        left: 801px;
+        left: 900px;
+      }
+
+      70% {
+        left: 901px;
+        left: 1000px;
+      }
+
+      70% {
+        left: 1001px;
+        left: 1100px;
+      }
+
+      70% {
+        left: 1101px;
+        left: 1200px;
+      }
+
+      70% {
+        left: 1201px;
+        left: 1300px;
+      }
+
+      70% {
+        left: 1301px;
+        left: 1500px;
+      }
+
+      100% {
+        left: 1501px;
+        left: 1600px;
+      }
+    }
+
+    #Tracktor {
+      display: flex;
+      position: fixed;
+      width: 40px;
+      height: 25px;
+      bottom: 55px;
+      animation: track 8s infinite;
+    }
+
+    @keyframes track {
+      0% {
+        left: 0px;
+        left: 0px;
+      }
+
+      70% {
+        left: 101px;
+        left: 200px;
+      }
+
+      70% {
+        left: 201px;
+        left: 300px;
+      }
+
+      70% {
+        left: 301px;
+        left: 400px;
+      }
+
+      70% {
+        left: 401px;
+        left: 500px;
+      }
+
+      70% {
+        left: 501px;
+        left: 600px;
+      }
+
+      70% {
+        left: 601px;
+        left: 700px;
+      }
+
+      70% {
+        left: 701px;
+        left: 800px;
+      }
+
+      70% {
+        left: 801px;
+        left: 900px;
+      }
+
+      70% {
+        left: 901px;
+        left: 1000px;
+      }
+
+      70% {
+        left: 1001px;
+        left: 1100px;
+      }
+
+      70% {
+        left: 1101px;
+        left: 1200px;
+      }
+
+      70% {
+        left: 1201px;
+        left: 1300px;
+      }
+
+      70% {
+        left: 1301px;
+        left: 1500px;
+      }
+
+      100% {
+        left: 1501px;
+        left: 1600px;
+      }
+    }
+
+    #Truck {
+      display: flex;
+      position: fixed;
+      width: 44px;
+      height: 34px;
+      bottom: 25px;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      animation: truck 10s infinite;
+    }
+
+    @keyframes truck {
+      0% {
+        right: 0px;
+        right: 0px;
+      }
+
+      80% {
+        right: 101px;
+        right: 200px;
+      }
+
+      80% {
+        right: 201px;
+        right: 300px;
+      }
+
+      80% {
+        right: 301px;
+        right: 400px;
+      }
+
+      80% {
+        right: 401px;
+        right: 500px;
+      }
+
+      80% {
+        right: 501px;
+        right: 600px;
+      }
+
+      80% {
+        right: 601px;
+        right: 700px;
+      }
+
+      80% {
+        right: 701px;
+        right: 800px;
+      }
+
+      80% {
+        right: 801px;
+        right: 900px;
+      }
+
+      80% {
+        right: 901px;
+        right: 1000px;
+      }
+
+      80% {
+        right: 1001px;
+        right: 1100px;
+      }
+
+      80% {
+        right: 1101px;
+        right: 1200px;
+      }
+
+      80% {
+        right: 1201px;
+        right: 1300px;
+      }
+
+      90% {
+        right: 1301px;
+        right: 1500px;
+      }
+
+      100% {
+        right: 1501px;
+        right: 1600px;
+      }
+    }
+
+    #Policecar {
+      display: flex;
+      position: fixed;
+      width: 50px;
+      height: 40px;
+      bottom: 7px;
+      animation: police 8s infinite;
+    }
+
+    @keyframes police {
+      0% {
+        right: 0px;
+        right: 0px;
+      }
+
+      80% {
+        right: 101px;
+        right: 200px;
+      }
+
+      80% {
+        right: 201px;
+        right: 300px;
+      }
+
+      80% {
+        right: 301px;
+        right: 400px;
+      }
+
+      80% {
+        right: 401px;
+        right: 500px;
+      }
+
+      80% {
+        right: 501px;
+        right: 600px;
+      }
+
+      80% {
+        right: 601px;
+        right: 700px;
+      }
+
+      80% {
+        right: 701px;
+        right: 800px;
+      }
+
+      80% {
+        right: 801px;
+        right: 900px;
+      }
+
+      80% {
+        right: 901px;
+        right: 1000px;
+      }
+
+      80% {
+        right: 1001px;
+        right: 1100px;
+      }
+
+      80% {
+        right: 1101px;
+        right: 1200px;
+      }
+
+      80% {
+        right: 1201px;
+        right: 1300px;
+      }
+
+      90% {
+        right: 1301px;
+        right: 1500px;
+      }
+
+      100% {
+        right: 1501px;
+        right: 1600px;
+      }
+    }
+
+    #Mercedes {
+      display: flex;
+      position: fixed;
+      width: 28px;
+      height: 18px;
+      bottom: 0px;
+      animation: mer 7s infinite;
+    }
+
+    @keyframes mer {
+      0% {
+        right: 0px;
+        right: 0px;
+      }
+
+      80% {
+        right: 101px;
+        right: 200px;
+      }
+
+      80% {
+        right: 201px;
+        right: 300px;
+      }
+
+      80% {
+        right: 301px;
+        right: 400px;
+      }
+
+      80% {
+        right: 401px;
+        right: 500px;
+      }
+
+      80% {
+        right: 501px;
+        right: 600px;
+      }
+
+      80% {
+        right: 601px;
+        right: 700px;
+      }
+
+      80% {
+        right: 701px;
+        right: 800px;
+      }
+
+      80% {
+        right: 801px;
+        right: 900px;
+      }
+
+      80% {
+        right: 901px;
+        right: 1000px;
+      }
+
+      80% {
+        right: 1001px;
+        right: 1100px;
+      }
+
+      80% {
+        right: 1101px;
+        right: 1200px;
+      }
+
+      80% {
+        right: 1201px;
+        right: 1300px;
+      }
+
+      90% {
+        right: 1301px;
+        right: 1500px;
+      }
+
+      100% {
+        right: 1501px;
+        right: 1600px;
+      }
+    }
+
+    #Bird {
+      display: flex;
+      position: fixed;
+      width: 40px;
+      height: 40px;
+      top: 180px;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      animation: birds 20s infinite;
+    }
+
+    @keyframes birds {
+      0% {
+        left: px;
+        left: 50px;
+      }
+
+      70% {
+        left: 51px;
+        left: 120px;
+      }
+
+      70% {
+        left: 121px;
+        left: 250px;
+      }
+
+      70% {
+        left: 251px;
+        left: 370px;
+      }
+
+      70% {
+        left: 381px;
+        left: 500px;
+      }
+
+      70% {
+        left: 501px;
+        top: 40px;
+      }
+
+      70% {
+        top: 40px;
+        left: 100px;
+      }
+
+      70% {
+        left: 101px;
+        bottom: 40px;
+      }
+
+      70% {
+        bottom: 40px;
+        left: 900px;
+      }
+
+      70% {
+        left: 901px;
+        left: 1000px;
+      }
+
+      70% {
+        left: 1001px;
+        left: 1100px;
+      }
+
+      70% {
+        left: 1101px;
+        left: 1200px;
+      }
+
+      70% {
+        left: 1201px;
+        left: 1300px;
+      }
+
+      70% {
+        left: 1301px;
+        left: 1500px;
+      }
+
+      70% {
+        left: 1501px;
+        left: 1600px;
+      }
+    }
+
+    #Aeroplane {
+      display: flex;
+      position: fixed;
+      width: 130px;
+      height: 60px;
+      top: 100px;
+      animation: plane 20s infinite;
+    }
+
+    @keyframes plane {
+      0% {
+        
+        right: 0px;
+        right: 50px;
+      }
+
+      60% {
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        right: 50px;
+      }
+
+      60% {
+        right: 120px;
+        right: 250px;
+      }
+
+      60% {
+        right: 370px;
+      }
+
+      60% {
+        right: 380px;
+        right: 500px;
+      }
+
+      60% {
+        right: 600px;
+        top: 490px;
+      }
+
+      65% {
+        top: 490px;
+        right: 600px;
+        right: 700px;
+        
+      }
+
+      70% { 
+        
+        right: 700px;
+        right: 800px;
+      }
+
+      70% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        right: 900px;
+        
+      }
+
+      70% {
+        -webkit-transform: rotate(12deg);
+        -moz-transform: rotate(12deg);
+        right: 900px;
+        right: 1000px;
+      }
+
+      80% {
+        right: 1100px;
+      }
+
+      80% {
+        right: 1100px;
+        right: 1200px;
+      }
+
+      90% {
+        right: 1300px;
+      }
+
+      90% {
+        right: 1300px;
+        right: 1400px;
+      }
+
+      100% {
+        right: 1400px;
+        right: 1500px;
+      }
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="Sky">
+    <div id="Sun">
+    </div>
+    <svg id="Cloud1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-cloud-fill" viewBox="0 0 16 16">
+      <path
+        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
+    </svg>
+    <svg id="Cloud2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-cloud-fill" viewBox="0 0 16 16">
+      <path
+        d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
+    </svg>
+    <svg id="Baloon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-balloon-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z" />
+    </svg>
+    <svg id="Baloon1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-balloon-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z" />
+    </svg>
+    <svg id="Baloon2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-balloon-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z" />
+    </svg>
+    <svg id="Baloon3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-balloon-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z" />
+    </svg>
+    <svg id="Baloon4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-balloon-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8.48 10.901C11.211 10.227 13 7.837 13 5A5 5 0 0 0 3 5c0 2.837 1.789 5.227 4.52 5.901l-.244.487a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.244-.487ZM4.352 3.356a4.004 4.004 0 0 1 3.15-2.325C7.774.997 8 1.224 8 1.5c0 .276-.226.496-.498.542-.95.162-1.749.78-2.173 1.617a.595.595 0 0 1-.52.341c-.346 0-.599-.329-.457-.644Z" />
+    </svg>
+    <svg id="Star1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star6" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star7" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star8" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star9" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <svg id="Star10" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-star-fill" viewBox="0 0 16 16">
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+    </svg>
+    <div id="Greenary1">
+      <div id="Nobita-house">
+        <img src="Nobita-house.png">
+      </div>
+      <div id="Shizuka-house">
+        <img src="Shizuka-house.png">
+      </div>
+      <div id="Suneo-house">
+        <img src="Suneo-house.png">
+      </div>
+      <div id="Gian-house">
+        <img src="Gian-house.png">
+      </div>
+      <div id="Dekisugi-house">
+        <img src="Dekisugi-house.png">
+      </div>
+        <img id="Doremon" src="Doremon.png.png">
+      </div>
+      <img id="Playground" src="Playground.png">
+      <img id="Airport" src="airport.png">
+      <svg id="Bicycle1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-bicycle" viewBox="0 0 16 16">
+        <path
+          d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+      </svg>
+      <svg id="Bicycle2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-bicycle" viewBox="0 0 16 16">
+        <path
+          d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+      </svg>
+      <svg id="Bicycle3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-bicycle" viewBox="0 0 16 16">
+        <path
+          d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+      </svg>
+      <div id="Tree1">
+        <img src="tree.png">
+      </div>
+      <div id="Tree2">
+        <img src="tree.png">
+      </div>
+      <div id="Tree3">
+        <img src="tree.png">
+      </div>
+      <div id="Tree4">
+        <img src="tree.png">
+      </div>
+      <div id="Tree5">
+        <img src="tree.png">
+      </div>
+      <div id="Tree6">
+        <img src="tree.png">
+      </div>
+      <div id="Tree7">
+        <img src="tree.png">
+      </div>
+      <div id="Tree8">
+        <img src="tree.png">
+      </div>
+      
+    
+  </div>
+
+    <div id="Road1">
+      <img id="Ferari" src="Ferari.png">
+      <div>
+        <img id="Aeroplane" src="Aeroplane.png">
+        <img id="Bird"
+          src="Birds.gif">
+      </div>
+
+    </div>
+    <div id="Road2">
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:0%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:5%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:10%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:15%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:20%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:25%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:30%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:35%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:40%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:45%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:50%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:55%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:60%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:65%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:70%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:75%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:80%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:85%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:90%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:80px;left:95%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:0%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:5%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:10%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:15%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:20%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:25%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:30%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:35%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:40%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:45%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:50%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:55%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:60%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:65%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:70%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:75%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:80%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:85%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:90%;"></div>
+      <div id="Line1"
+        style="display: flex;position:fixed;width:15px;height:2.5px;background-color:white;bottom:25px;left:95%;"></div>
+      <div id="Divider1"
+        style="display: flex;position:fixed;width:100vw;height:15px;background-color:yellow;bottom:110px;"></div>
+      <div id="Divider2"
+        style="display: flex;position:fixed;width:100vw;height:4px;background-color:bisque;bottom:50px;"></div>
+      <img id="Car"
+        src="https://www.pngkey.com/png/full/40-404425_blue-beetle-profile-painted-rocks-pinterest-car-clipart.png">
+      <img id="Tracktor" src="Tracktor.png">
+      <img id="Truck" src="Truck.png">
+      <img id="Policecar" src="https://www.pngmart.com/files/21/Police-Car-PNG.png">
+      <img id="Mercedes" src="mercedes.png">
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
